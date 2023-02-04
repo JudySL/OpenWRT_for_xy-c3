@@ -17,6 +17,6 @@ sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generat
 git clone https://github.com/gngpp/luci-theme-design.git  package/luci-theme-design
 
 # Add luci-theme-darkmatter
-echo 'src-git darkmatter git://github.com/apollo-ng/luci-theme-darkmatter.git' >>feeds.conf.default
-scripts/feeds update darkmatter
-scripts/feeds install luci-theme-darkmatter
+# echo 'src-git darkmatter git://github.com/apollo-ng/luci-theme-darkmatter.git' >>feeds.conf.default
+# scripts/feeds update darkmatter
+# scripts/feeds install luci-theme-darkmatter
