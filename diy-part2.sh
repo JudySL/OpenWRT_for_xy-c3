@@ -17,4 +17,4 @@ sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generat
 git clone https://github.com/gngpp/luci-theme-design.git  package/luci-theme-design
 
 # 添加 OpenAppFilter 应用过滤插件
-# git clone https://github.com/destan19/OpenAppFilter package/OpenAppFilter
+git clone https://github.com/destan19/OpenAppFilter package/OpenAppFilter
