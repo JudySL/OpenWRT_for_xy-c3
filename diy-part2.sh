@@ -18,3 +18,7 @@ git clone https://github.com/gngpp/luci-theme-design.git  package/luci-theme-des
 
 # 添加 OpenAppFilter 应用过滤插件
 git clone https://github.com/destan19/OpenAppFilter package/OpenAppFilter
+echo "CONFIG_PACKAGE_luci-app-oaf=y" >>.config
+
+#git lua-maxminddb 依赖
+git clone https://github.com/jerrykuku/lua-maxminddb.git
