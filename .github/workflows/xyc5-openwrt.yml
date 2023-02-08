@@ -33,6 +33,8 @@ env:
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
 
+permissions: write-all
+
 jobs:
   build:
     runs-on: ubuntu-20.04
@@ -188,5 +190,3 @@ jobs:
         delete_tags: true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-permissions:
-  contents: write
