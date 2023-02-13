@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: (xy-c5)Build OpenWrt
+name: (c5op)Build OpenWrt
 
 on:
   repository_dispatch:
